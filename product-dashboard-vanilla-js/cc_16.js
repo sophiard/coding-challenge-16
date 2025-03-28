@@ -90,3 +90,9 @@ function displayProducts(products) {
 function handleError(error) {
     console.error("An error occurred:", error.message);
   } //logged if error occured 
+
+//task 6:  Trigger both fetch methods at script load
+fetchProductsThen();  
+//calls using .then()
+fetchProductsAsync();  
+//calls using async 
