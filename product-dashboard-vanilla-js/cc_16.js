@@ -86,3 +86,7 @@ function displayProducts(products) {
     }); // Puts the product div in container
   }
   
+// Task 5: Add reusable handleError function
+function handleError(error) {
+    console.error("An error occurred:", error.message);
+  } //logged if error occured 
